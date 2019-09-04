@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/appColor"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:weightSum="10"
+    tools:context=".CRUD.view_note">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/noteTittle"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:textStyle="bold|italic"
+            android:ems="10"
+            />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:id="@+id/noteText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </ScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/bottom_nav_2"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/noteDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:text="12 sep 2018 at 5:56 PM"
+            android:textColor="@color/textColor"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

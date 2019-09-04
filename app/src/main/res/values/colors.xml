@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ff1294b8</color>
+    <color name="colorPrimaryDark">#ff00678a</color>
+    <color name="colorAccent">#ff1294b8</color>
+
+    <color name="bottom_nav">#2b000000</color>
+    <color name="bottom_nav_2">#09000000</color>
+
+    <color name="appColor">#26ba98cc</color>
+    <color name="buttonBackground">#cc7e2eae</color>
+    <color name="textColor">#587294</color>
+    <color name="textColorHint">#304764</color>
+
+    <color name="transparent">#0ceeebef</color>
+    <color name="postBackground">#E1E1E1</color>
+
+    <color name="un">#808080</color>
+    <color name="white">#000000</color>
+
+
+</resources>
